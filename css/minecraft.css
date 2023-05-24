@@ -1,0 +1,122 @@
+body{
+    background-color: #3B3838;
+}
+
+header{
+    color: white;
+    font-size: 40px;
+    width: 400px;
+    grid-row: 3;
+    grid-column: 10;
+    font-family: Biome Light;
+}
+
+.wrapper{
+    height: 2200px;
+    width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(55, 40px);
+    margin: auto;
+}
+
+.mc{
+    width: 950px;
+    height: 500px;
+    border-radius: 60px;
+    grid-column: 10;
+    grid-row: 6;
+}
+
+.back{
+    grid-row: 1;
+    grid-column: 10;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background: purple;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.back:hover{
+    background-color: rgb(103, 220, 146);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.minecrafttext1 {
+    color: white;
+    width: 950px;
+    grid-row: 19;
+    grid-column: 10;
+    height: 300px;
+    font-size: 25px;
+}
+
+.mc2{
+    grid-row: 25;
+    grid-column: 10;
+    width: 950px;
+    height: 500px;
+    border-radius: 60px;
+    border: 5px solid rgb(103, 220, 146);
+}
+
+h1{
+    color: rgb(103, 220, 146);
+    grid-row: 37;
+    grid-column: 10;
+    margin-top: 120px;
+    width: 990px;
+    height: 70px;
+}
+
+.minecrafttext2 {
+    color: white;
+    width: 950px;
+    grid-row: 41;
+    grid-column: 10;
+    height: 150px;
+    font-size: 25px;
+    margin-bottom: 300px;
+}
+
+h2 {
+    
+    color: rgb(103, 220, 146);
+    grid-row: 44;
+    grid-column: 10;
+    margin-top: 120px;
+    width: 990px;
+    height: 70px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.buymc{
+    grid-row: 48;
+    grid-column: 10;
+    width: 25%;
+    height: 50px;
+    margin: auto;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: purple;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.buymc:hover{
+    background-color: rgb(103, 220, 146);
+    transform: scale(1.1);
+    cursor: pointer;
+}

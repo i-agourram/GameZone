@@ -1,0 +1,118 @@
+* {
+    font-family: Arial;
+}
+
+
+
+body{
+    background-image: url(../img/contactbg.gif);
+    background-size: cover;
+}
+
+form{
+    max-width: 550px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+label{
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-bottom: 1px solid rgb(255, 0, 106);
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 0, 106);
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to right, rgb(255, 0, 106),   rgb(255, 67, 61));
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+
+
+.error-border{
+    border-bottom: 1px solid red;
+}
+
+.success {
+    color: #28a745;
+}
+
+.contactus{
+    border: none;
+    background: purple;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+
+    .contactus{
+        border: none;
+        background: purple;
+        padding: 12px 30px;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        transition: 1s;
+        width: 100%;
+    }
+
+    form{
+        max-width: 550px;
+        width: 100%;
+        background-color: white;
+        margin: auto;
+        padding: 40px;
+        border-radius: 50px;
+        box-sizing: border-box;
+        margin-top: 15px;
+    }
+}

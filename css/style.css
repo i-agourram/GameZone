@@ -1,0 +1,213 @@
+body{
+    background-color: #3B3838;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Biome Light;
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+span{
+    color: rgb(205, 134, 249); 
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: purple;
+    transition: 1s;
+}
+
+nav{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+button{
+    border: none;
+    background: purple;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.callisto{
+    width: 1250px;
+    height: 650px;
+    border-radius: 60px;
+    grid-column: 10;
+    grid-row: 1;
+}
+
+
+.callisto:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    height: 2200px;
+    width: 100%;    
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(40, 40px);
+    margin: auto;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+}
+
+#start{
+    width: 100%;
+    height: 660px;
+    grid-row: 1;
+    grid-column: 10;
+}
+
+#trending{
+    width: 100%;
+    height: 660px;
+    grid-row: 19;
+    grid-column: 10;
+    background: url(../img/cyberpunk5.gif);
+    border-radius: 60px;
+    background-size: cover;
+    gap: 10px;  
+}
+
+.minecraft{
+    margin-top: 110px;
+    margin-left: 50px;
+
+}
+
+.headertrendinggames{
+    font-family: BiomeLight;
+    color: white;
+    margin-left: 80px;
+    margin-top: 58px;
+    font-size: 20px;
+}
+
+.fortnite{
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.fortnite:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.re{
+    border-radius: 52px;
+    height: 300px;
+    width: 220px;
+    margin-left: 20px;
+}
+
+.dbd{
+    border-radius: 52px;
+    height: 300px;
+    width: 220px;
+    margin-left: 20px;
+}
+
+.cyber{
+    border-radius: 52px;
+    height: 300px;
+    width: 220px;
+    margin-left: 20px;
+}
+
+#newgames{
+    width: 100%;
+    height: 660px;
+    grid-row: 37;
+    grid-column: 10;
+    border-radius: 60px;
+    background-size: cover;
+    gap: 10px;  
+    background-image: url(../img/cyberpunk6.gif);
+}
+
+.row1{
+    border-radius: 30px;
+    margin-left: 80px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.rest1{
+    border-radius: 30px;
+    margin-left: 20px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.row2{
+    border-radius: 30px;
+    margin-left: 80px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.rest2{
+    border-radius: 30px;
+    margin-left: 20px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.callistobutton{
+margin-left: 270px;
+
+}
+
+.minecraft{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.minecraft:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
